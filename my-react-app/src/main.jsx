@@ -1,4 +1,4 @@
-import { createRoot } from 'react-dom/client';
+// import { createRoot } from 'react-dom/client';
 
 
 
@@ -74,7 +74,7 @@ const vehicles = ['mustang', 'f-150', 'expedition'];
 
 const [car, truck ,suv] = vehicles;
 
-document.getElementById('test').innerHTML = suv;
+document.getElementById('test').innerHTML =  car;
 
 function dateInfo(dat){
 const d = dat.getDate();
