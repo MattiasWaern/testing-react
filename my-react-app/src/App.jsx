@@ -1,9 +1,8 @@
+import Stopwatch from "./Stopwatch.jsx"
+
 function App(){
-  return (
-    <div className="App">
-      <h1>HELLO WORLD!</h1>
-    </div>
-  );
+  return(< Stopwatch />)
 }
+
 
 export default App;
