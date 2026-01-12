@@ -17,7 +17,6 @@ function ToDoList(){
         setNewTask("");
     }
 }
-
     function deleteTask(index){
         const updatedTasks = tasks.filter((_, i) => i !== index)
         setTasks(updatedTasks);
@@ -32,7 +31,6 @@ function ToDoList(){
             setTasks(updatedTasks);
         }
     }
-
 
     function moveTaskDown(index){
             if(index < tasks.length - 1){
@@ -82,7 +80,6 @@ function ToDoList(){
                 </li>
             )}
         </ol>
-
 
     </div>);
 }

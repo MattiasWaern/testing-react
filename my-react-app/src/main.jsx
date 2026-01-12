@@ -8,5 +8,6 @@ import ToDoList from './todolist.jsx'
 ReactDOM.createRoot(document.body).render(
   <React.StrictMode>
     <ToDoList />
+    <Stopwatch />
   </React.StrictMode>
 )
